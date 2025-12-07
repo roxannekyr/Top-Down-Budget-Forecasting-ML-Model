@@ -1,8 +1,8 @@
-<h1>High Level Demand Forecasting ML Model for Finance</h1>
+<h1>Top-Down Budget Forecasting ML Model</h1>
 
 <h2>Description</h2>
 
-This project implements a robust Time Series Forecasting pipeline using Machine Learning (Random Forest Regressor) to predict future monthly by total sales demand for the company.
+This project implements a robust Time Series Top-Down Budget Forecasting pipeline using Machine Learning (Random Forest Regressor) to predict future total demand (not skus level).
 
 Unlike standard statistical models (ARIMA/ETS), this engine treats forecasting as a supervised regression problem, utilizing advanced feature engineering (Lags, Rolling Windows, Seasonality) to capture complex patterns in sales data. It employs a Recursive Multi-Step Forecasting strategy to predict 6 months into the future.
 
@@ -67,7 +67,7 @@ The script evaluates accuracy using a comprehensive suite of metrics:
 
 ✅ SMAPE: Real-world sales data is messy and sometimes have extreme outliers. In the model thus, was used SMAPE, a robust metric designed specifically to handle intermittent demand and keeping the forecasting engine running smoothly 100% of the time, regardless of whether were sold 1,000 units or 0 units.
 
-Forecasting vs Actuals Year-Over-Year Graph: <br/>
+Top-Down Budget Forecasting vs Actuals Year-Over-Year Graph: <br/>
 <img src="https://i.imgur.com/qIA64VF.png" height="80%" width="80%" alt="Forecasting vs Actuals Year-Over-Year Graph"/>
 <br />
 <br />
