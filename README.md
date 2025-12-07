@@ -1,8 +1,8 @@
-<h1>High Level Demand Forecasting ML Model</h1>
+<h1>High Level Demand Forecasting ML Model for Finance</h1>
 
 <h2>Description</h2>
 
-This project implements a robust Time Series Forecasting pipeline using Machine Learning (Random Forest Regressor) to predict future monthly total sales demand for the company.
+This project implements a robust Time Series Forecasting pipeline using Machine Learning (Random Forest Regressor) to predict future monthly by total sales demand for the company.
 
 Unlike standard statistical models (ARIMA/ETS), this engine treats forecasting as a supervised regression problem, utilizing advanced feature engineering (Lags, Rolling Windows, Seasonality) to capture complex patterns in sales data. It employs a Recursive Multi-Step Forecasting strategy to predict 6 months into the future.
 
