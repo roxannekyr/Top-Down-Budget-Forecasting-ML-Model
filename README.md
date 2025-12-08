@@ -1,8 +1,8 @@
-<h1>Top Level Demand Planning Forecasting ML Model</h1>
+<h1>Aggregated Volume Forecasting ML Model</h1>
 
 <h2>Description</h2>
 
-This project implements a robust Time Series Top Level Demand Planning Forecastingpipeline using Machine Learning (Random Forest Regressor) to predict future total demand volumes (not at skus level but at a total aggregation monthly level).
+Developed a Time Series Forecasting pipeline using a Random Forest Regressor to predict aggregated monthly demand. The model focuses on high-level volume trends to support strategic S&OP planning, reducing signal noise found at granular SKU levels.
 
 Unlike standard statistical models (ARIMA/ETS), this engine treats forecasting as a supervised regression problem, utilizing advanced feature engineering (Lags, Rolling Windows, Seasonality) to capture complex patterns in sales data. It employs a Recursive Multi-Step Forecasting strategy to predict 6 months into the future.
 
