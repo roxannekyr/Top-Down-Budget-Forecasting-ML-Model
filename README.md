@@ -69,7 +69,7 @@ The script evaluates accuracy using a comprehensive suite of metrics:
 
 ✅WAPE: In the model was used Weighted Absolute % Error to evaluate how model predicts the total volume of business. In our case the model achieved a WAPE of ~15% (implies ~85% Weighted Accuracy). This indicates that model successfully captured the main seasonality and trends, leaving only random noise as error.
 
-Top-Down Budget Forecasting vs Actuals Year-Over-Year Graph: <br/>
+Aggregated Volume Forecasting vs Actuals Year-Over-Year Graph: <br/>
 <img src="https://i.imgur.com/qIA64VF.png" height="80%" width="80%" alt="Top-Down Budget Forecasting Year-Over-Year Graph"/>
 <br />
 <br />
